@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400&family=Oswald:wght@300&display=swap');
+
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+    padding: 0 02%;
+    margin: 0;
+}
+
+img {
+    width: 40px;
+    height: auto;
+    padding: 5px;
+}
+
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    position: sticky;
+    top: 0;
+}
+nav .profile {
+    display: flex;
+    align-items: center;
+}
+
+.maison {
+    display: block;
+    position: absolute;
+    left: 50%;
+}
+
+
+nav .profile img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    text-decoration: none;
+}
+nav .profile h1 {
+    margin-left: 10px;
+    font-size: 15px;
+    text-decoration: none;
+    text-decoration: none;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    text-decoration: none;
+}
+nav ul li {
+    margin-left: 1px;
+    cursor: pointer;
+    border-bottom: 1px solid #fff;
+}
+
+.contenu {
+    margin: 3%;
+}
+.contenu header p {
+    font-size: 25px;
+
+}
+
+.contenu header {
+    margin-top: 10%;
+    max-width: 80%;
+}
+.contenu header h1 {
+    margin: 0;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-size: 6vw;
+    color: #4169E1;
+}
+
+.contenu header h2 {
+    margin: 0;
+    text-transform: uppercase;
+    color: black;
+}
+
+
+
+footer  {
+    margin-top: 20%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: #4169E1;
+    color: white;
+    bottom: 0;
+    left: 0;
+
+}
+
+
+.contact img {
+    width: 20px;
+    height: 20px;
+}
+
+.contact p {
+    color: black;
+    text-decoration: none;
+}
+
+.adresse p {
+    color: black;
+    text-decoration: none;
+}
+
+.adresse img {
+    width: 20px;
+    height: 20px;
+}
+
+.titreCv h1 {
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-size: 6vw;
+    color: #4169E1;
+}
+
+.titreProjet h1 {
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-size: 6vw;
+    color: #4169E1;
+}
+
+.sousTitreProj {
+    font-size: 30px;
+}
+
+
+
+
+
+
+
+
+.sousTitreCv p {
+    font-size: 30px;
+}
+
+.cvFr a {
+    font-size: 40px;
+    color: black;
+    text-decoration: none;
+}
+
+.cvFr img {
+    margin-top: 5%;
+    width: 50px;
+    height: 50px;
+}
+
+.cvEn a {
+    font-size: 40px;
+    color: black;
+    text-decoration: none;
+}
+
+.cvEn img {
+    margin-top: 5%;
+    width: 50px;
+    height: 50px;
+}
+
+.Titre h1 {
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-size: 6vw;
+    color: #4169E1;
+}
+
+.corps li {
+    margin: 0;
+    text-transform: uppercase;
+    color: #4169E1;
+    font-size: 30px;
+}
+
+.corps p {
+    font-size: 20px;
+}
+
+.SousTitre h2 {
+    font-size: 40px;
+
+}
+
+.titreExp h1 {
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-size: 6vw;
+    color: #4169E1;
+}
+
+.titreExp h2 {
+    font-size:30px;
+    color: black;
+}
+
+.projets li {
+    margin: 0;
+    text-transform: uppercase;
+    color: #4169E1;
+    font-size: 30px;
+}
+
+body {
+    background: url("images/3433814.jpg") no-repeat;
+    background-size: cover;
+}
+
